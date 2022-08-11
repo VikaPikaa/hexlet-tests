@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Thu Aug 11 11:10:54 2022
+# Make data base, printed on Thu Aug 11 19:49:33 2022
 
 # Variables
 
@@ -22,6 +22,7 @@ make: *** No rule to make target `all'.  Stop.
 VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
+ 
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # automatic
@@ -43,7 +44,7 @@ __CFBundleIdentifier = com.microsoft.VSCode
 # environment
 INFOPATH = /opt/homebrew/share/info:
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/x3/k0xhrbg90_91vtx3798b0_q80000gn/T/vscode-ipc-c63d2504-4170-4f7b-8eea-2df1d36d1e10.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/x3/k0xhrbg90_91vtx3798b0_q80000gn/T/vscode-ipc-1aac53b9-e3ca-49bf-b5fc-bfaae5f3fa8f.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -148,6 +149,7 @@ LANG = C
 VSCODE_PID = 2169
 # variable set hash-table stats:
 # Load=66/1024=6%, Rehash=0, Collisions=1/89=1%
+ 
 
 # Pattern-specific Variable Values
 
@@ -155,9 +157,9 @@ VSCODE_PID = 2169
 
 # Directories
 
-# . (device 16777232, inode 2117998): 7 files, no impossibilities.
+# . (device 16777232, inode 2117998): 10 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -224,6 +226,6 @@ check:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Thu Aug 11 11:10:54 2022
+# Finished Make data base on Thu Aug 11 19:49:33 2022
 
  
